@@ -1,0 +1,67 @@
+@import url("https://unpkg.com/modern-normalize@1.0.0/modern-normalize.css");
+
+body {
+  background-color: black;
+}
+
+#Recall {
+  color: white;
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 100px;
+  padding: 230px;
+  background-image: url("rain.gif");
+  background-size: 200%;
+  background-repeat: no-repeat;
+}
+
+#signUp {
+  color: white;
+  font-family: Helvetica;
+  text-align: right;
+  vertical-align: top;
+  font-size: 40px;
+  margin-right: 25px;
+}
+
+#emailBackground {
+  background-color: rgba(0, 0, 0, 0.623);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#emailBackground.hidden {
+  display: none;
+}
+
+#emailBox {
+  position: fixed;
+  background-color: black;
+  left: 25%;
+  width: 50%;
+  top: 10%;
+}
+
+#signUpText {
+  color: aquamarine;
+  font-size: 30px;
+  text-align: center;
+}
+
+#closeEmailWindow {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+#emailInput {
+  position: fixed;
+}
+
+#submit {
+  color: black;
+  margin-top: 40px;
+}
