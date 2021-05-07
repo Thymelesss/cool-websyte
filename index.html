@@ -10,26 +10,34 @@
     <!-- ok so basically hello guys welcome to my website for my epic game i hope you enjoy -->
     <!-- so there is going to be a sign up page that links to database and stores e-mail address -->
     <!-- purchase vidya gayme -->
-    <div>
-      <h3 id="signUp">Sign Up</h3>
-    </div>
+    <h3 id="signUp">Sign Up</h3>
+    <a id="what" href="about">what?</a>
     <h1 id="Recall">Recall</h1>
     <div id="emailBackground" class="hidden">
       <div id="emailBox">
         <p id="signUpText">Sign up for the latest announcements</p>
         <br />
-        <input
-          type="email"
-          id="emailInput"
-          size="30"
-          placeholder="email here please :)"
-        />
-        <form action="/" method="POST">
+        <form action="http://localhost:3000/signup" method="POST">
+          <input
+            type="email"
+            name="email"
+            id="emailInput"
+            size="30"
+            placeholder="email here please :)"
+          />
           <input type="submit" value="Submit" id="submit" />
         </form>
         <p id="closeEmailWindow">Close</p>
       </div>
     </div>
+    <h1 class="Art">instagram thud sound effect</h1>
+    <audio id="boom" src="thud.mp3" controls>boom</audio>
+    <h1 class="Art">M1911 Sprite</h1>
+    <img id="M1911" src="income.png" alt="gun" />
+
+    <footer>
+      <a href="https://www.seek.com.au" target="_blank">get a job</a>
+    </footer>
     <script src="index.js"></script>
   </body>
 </html>
