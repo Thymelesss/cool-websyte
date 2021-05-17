@@ -2,7 +2,6 @@
 
 body {
   background-color: black;
-  text-align: center;
 }
 
 #Recall {
@@ -66,33 +65,11 @@ body {
 
 #emailInput {
   position: fixed;
-  
 }
 
 #submit {
   color: black;
   margin-top: 40px;
-}
-
-.Art {
-  text-align: center;
-  font-size: 40px;
-  background-color: #303030;
-  padding: 20px;
-}
-
-#boom {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-#M1911 {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  width: 50%;
-  image-rendering: pixelated;
 }
 
 body {
@@ -102,7 +79,7 @@ body {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: rgb(22, 22, 22);
+  background-color: rgb(39, 39, 39);
   font-family: Helvetica;
   font-size: larger;
 }
@@ -133,17 +110,28 @@ a:active {
 
 #what {
   position: absolute;
-  top: 40px;
+  top: 55px;
   left: 20px;
   font-size: 40px;
   font-family: Helvetica;
   font-weight: bold;
 }
 
-#repo {
+h3 {
+  font-weight: bold;
+  font-size: x-large;
   text-align: center;
-  font-size: 40px;
-  background-color: #303030;
+  background-color: grey;
   padding: 20px;
 }
 
+p {
+  font-size: larger;
+  text-align: center;
+  padding: 15px;
+}
+
+h5 {
+  text-align: center;
+  font-size: x-large;
+}
